@@ -5,7 +5,7 @@ $url_base="http://localhost/app_PHP/"
 ?>
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <title>APP PHP</title>
