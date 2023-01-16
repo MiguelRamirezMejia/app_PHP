@@ -1,10 +1,11 @@
 <?php include("../../templates/header.php"); ?>
 
-Mostrar empleados
+<h2>Empleados</h2>
 
 <div class="card">
     <div class="card-header">
-        Empleados
+        
+        <a name="" id="" class="btn btn-primary" href="crear.php" role="button">Agregar empleado</a>
     </div>
     <div class="card-body">
        <div class="table-responsive-sm">
@@ -26,7 +27,11 @@ Mostrar empleados
                     <td>Cv.pdf</td>
                     <td>Programador junior</td>
                     <td>15/01/2023</td>
-                    <td>Carta/Editar/Eliminar</td>
+                    <td><a name="" id="" class="btn btn-primary" href="#" role="button">Carta</a>
+                    <a name="" id="" class="btn btn-info" href="#" role="button">Editar</a>
+                    <a name="" id="" class="btn btn-danger" href="#" role="button">Eliminar</a>
+                
+                </td>
                 </tr>
                 
             </tbody>
