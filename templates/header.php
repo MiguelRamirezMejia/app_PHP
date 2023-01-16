@@ -22,7 +22,7 @@
                 <a class="nav-link active" href="#" aria-current="page">Sistema <span class="visually-hidden">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Empleados</a>
+                <a class="nav-link" href="secciones/empleados/">Empleados</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Puestos</a>
