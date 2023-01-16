@@ -1,3 +1,9 @@
+<?php
+
+$url_base="http://localhost/app_PHP/"
+
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -22,16 +28,16 @@
                 <a class="nav-link active" href="#" aria-current="page">Sistema <span class="visually-hidden">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="secciones/empleados/">Empleados</a>
+                <a class="nav-link" href="<?php echo $url_base;?>secciones/empleados/">Empleados</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Puestos</a>
+                <a class="nav-link" href="<?php echo $url_base;?>secciones/puestos/">Puestos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Usuarios</a>
+                <a class="nav-link" href="<?php echo $url_base;?>secciones/usuarios/">Usuarios</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Cerrar sesión</a>
+                <a class="nav-link" href="">Cerrar sesión</a>
             </li>
         </ul>
     </nav>
